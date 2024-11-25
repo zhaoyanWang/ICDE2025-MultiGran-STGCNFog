@@ -1,0 +1,346 @@
+{
+    "layer_io_sizes": {
+        "layer0_input_from_input_recent": [
+            16,
+            1,
+            307,
+            12
+        ],
+        "layer1_input_from_layer0": [
+            16,
+            32,
+            307,
+            12
+        ],
+        "layer2_input_from_layer1": [
+            16,
+            32,
+            307,
+            6
+        ],
+        "layer3_input_from_layer2_skip": [
+            16,
+            96,
+            307,
+            6
+        ],
+        "layer4_input_from_input_daily": [
+            16,
+            1,
+            307,
+            12
+        ],
+        "layer5_input_from_layer4": [
+            16,
+            32,
+            307,
+            12
+        ],
+        "layer6_input_from_layer5": [
+            16,
+            32,
+            307,
+            6
+        ],
+        "layer7_input_from_input_weekly": [
+            16,
+            1,
+            307,
+            12
+        ],
+        "layer8_input_from_layer7": [
+            16,
+            32,
+            307,
+            12
+        ],
+        "layer9_input_from_layer8": [
+            16,
+            32,
+            307,
+            6
+        ],
+        "layer10_input_from_input_recentcluster": [
+            16,
+            2,
+            150,
+            12
+        ],
+        "layer11_input_from_layer10": [
+            16,
+            32,
+            150,
+            12
+        ],
+        "layer12_input_from_layer11": [
+            16,
+            32,
+            150,
+            6
+        ],
+        "layer13_input_from_input_recentl3": [
+            16,
+            2,
+            40,
+            12
+        ],
+        "layer14_input_from_layer13": [
+            16,
+            32,
+            40,
+            12
+        ],
+        "layer15_input_from_layer14": [
+            16,
+            32,
+            40,
+            6
+        ],
+        "layer16_input_from_layer3": [
+            16,
+            256,
+            307,
+            3
+        ],
+        "layer17_input_from_layer6": [
+            16,
+            256,
+            307,
+            3
+        ],
+        "layer18_input_from_layer9": [
+            16,
+            256,
+            307,
+            3
+        ],
+        "layer19_input_from_layer16": [
+            16,
+            12,
+            307,
+            1
+        ]
+    },
+    "memory_per_layer": [
+        12.48460799999998,
+        9.220096000000012,
+        6.4266239999999755,
+        130.99827200000001,
+        46.469119999999975,
+        23.175167999999985,
+        76.754944,
+        29.462527999999992,
+        17.784831999999994,
+        56.078336000000036,
+        12.66483199999999,
+        84.75033599999998,
+        61.71443199999999,
+        12.292096000000015,
+        105.30815999999999,
+        172.76108800000003,
+        61.96428800000001,
+        62.066688,
+        61.96428800000001,
+        3.1743999999999915
+    ],
+    "input_parameters_per_layer": [
+        {
+            "layer0_input_from_input_recent": 58944
+        },
+        {
+            "layer1_input_from_layer0": 1886208,
+            "layer1_input_from_layer10": 921600,
+            "layer1_input_from_layer13": 245760
+        },
+        {
+            "layer2_input_from_layer1": 943104,
+            "layer2_input_from_layer11": 460800,
+            "layer2_input_from_layer14": 122880
+        },
+        {
+            "layer3_input_from_layer2_skip": 2829312,
+            "layer3_input_from_layer2": 471552,
+            "layer3_input_from_layer12": 230400,
+            "layer3_input_from_layer15": 61440
+        },
+        {
+            "layer4_input_from_input_daily": 58944
+        },
+        {
+            "layer5_input_from_layer4": 1886208
+        },
+        {
+            "layer6_input_from_layer5": 943104
+        },
+        {
+            "layer7_input_from_input_weekly": 58944
+        },
+        {
+            "layer8_input_from_layer7": 1886208
+        },
+        {
+            "layer9_input_from_layer8": 943104
+        },
+        {
+            "layer10_input_from_input_recentcluster": 57600
+        },
+        {
+            "layer11_input_from_layer10": 921600
+        },
+        {
+            "layer12_input_from_layer11": 460800
+        },
+        {
+            "layer13_input_from_input_recentl3": 15360
+        },
+        {
+            "layer14_input_from_layer13": 245760
+        },
+        {
+            "layer15_input_from_layer14": 122880
+        },
+        {
+            "layer16_input_from_layer3": 3772416,
+            "layer16_input_from_layer6": 3772416,
+            "layer16_input_from_layer9": 3772416
+        },
+        {
+            "layer17_input_from_layer6": 3772416
+        },
+        {
+            "layer18_input_from_layer9": 3772416
+        },
+        {
+            "layer19_input_from_layer16": 58944,
+            "layer19_input_from_layer17": 58944,
+            "layer19_input_from_layer18": 58944
+        }
+    ],
+    "output_parameters_per_layer": [
+        {
+            "layer0_output_to_layer1": 1886208
+        },
+        {
+            "layer1_output_to_layer2": 943104
+        },
+        {
+            "layer2_output_to_layer3_skip": 2829312,
+            "layer2_output_to_layer3": 471552
+        },
+        {
+            "layer3_output_to_layer16": 3772416
+        },
+        {
+            "layer4_output_to_layer5": 1886208
+        },
+        {
+            "layer5_output_to_layer6": 943104
+        },
+        {
+            "layer6_output_to_layer17": 3772416
+        },
+        {
+            "layer7_output_to_layer8": 1886208
+        },
+        {
+            "layer8_output_to_layer9": 943104
+        },
+        {
+            "layer9_output_to_layer18": 3772416
+        },
+        {
+            "layer10_output_to_layer1": 921600,
+            "layer10_output_to_layer11": 921600
+        },
+        {
+            "layer11_output_to_layer2": 460800,
+            "layer11_output_to_layer12": 460800
+        },
+        {
+            "layer12_output_to_layer3": 230400
+        },
+        {
+            "layer13_output_to_layer1": 245760,
+            "layer13_output_to_layer14": 245760
+        },
+        {
+            "layer14_output_to_layer2": 122880,
+            "layer14_output_to_layer15": 122880
+        },
+        {
+            "layer15_output_to_layer3": 61440
+        },
+        {
+            "layer16_output_to_layer19": 58944
+        },
+        {
+            "layer17_output_to_layer19": 58944
+        },
+        {
+            "layer18_output_to_layer19": 58944
+        },
+        {
+            "layer19_final_result": 58944
+        }
+    ],
+    "dependencies": {
+        "layer1": [],
+        "layer2": [
+            "layer1",
+            "layer11",
+            "layer14"
+        ],
+        "layer3": [
+            "layer2",
+            "layer12",
+            "layer15"
+        ],
+        "layer4": [
+            "layer3",
+            "layer13",
+            "layer16"
+        ],
+        "layer5": [],
+        "layer6": [
+            "layer5"
+        ],
+        "layer7": [
+            "layer6"
+        ],
+        "layer8": [],
+        "layer9": [
+            "layer8"
+        ],
+        "layer10": [
+            "layer9"
+        ],
+        "layer11": [],
+        "layer12": [
+            "layer11"
+        ],
+        "layer13": [
+            "layer12"
+        ],
+        "layer14": [],
+        "layer15": [
+            "layer14"
+        ],
+        "layer16": [
+            "layer15"
+        ],
+        "layer17": [
+            "layer4"
+        ],
+        "layer18": [
+            "layer7"
+        ],
+        "layer19": [
+            "layer10"
+        ],
+        "layer20": [
+            "layer17",
+            "layer18",
+            "layer19"
+        ]
+    }
+}

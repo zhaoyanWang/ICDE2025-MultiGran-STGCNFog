@@ -1,0 +1,12 @@
+Evaluate best model on test data for horizon 1, Test MAE: 19.3251, Test MAPE: 0.1045, Test RMSE: 29.0311
+Evaluate best model on test data for horizon 2, Test MAE: 21.0069, Test MAPE: 0.1133, Test RMSE: 31.7569
+Evaluate best model on test data for horizon 3, Test MAE: 22.2915, Test MAPE: 0.1209, Test RMSE: 33.6189
+Evaluate best model on test data for horizon 4, Test MAE: 23.2812, Test MAPE: 0.1268, Test RMSE: 35.0572
+Evaluate best model on test data for horizon 5, Test MAE: 23.7813, Test MAPE: 0.1280, Test RMSE: 35.9603
+Evaluate best model on test data for horizon 6, Test MAE: 24.3091, Test MAPE: 0.1296, Test RMSE: 36.8600
+Evaluate best model on test data for horizon 7, Test MAE: 24.6834, Test MAPE: 0.1305, Test RMSE: 37.4941
+Evaluate best model on test data for horizon 8, Test MAE: 25.2592, Test MAPE: 0.1343, Test RMSE: 38.2330
+Evaluate best model on test data for horizon 9, Test MAE: 25.9074, Test MAPE: 0.1409, Test RMSE: 38.9350
+Evaluate best model on test data for horizon 10, Test MAE: 26.5422, Test MAPE: 0.1467, Test RMSE: 39.6271
+Evaluate best model on test data for horizon 11, Test MAE: 27.4205, Test MAPE: 0.1552, Test RMSE: 40.5927
+Evaluate best model on test data for horizon 12, Test MAE: 28.4398, Test MAPE: 0.1643, Test RMSE: 41.7834
